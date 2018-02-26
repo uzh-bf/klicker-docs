@@ -1,13 +1,35 @@
 ---
 id: doc3
-title: This is document number 3
+title: Create Question
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+Before preparing a session, all questions need to be created. Every question has the following
+attributes that need to be filled:
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+- *Question Title:* A short title that summarizes the question. The title is
+only visible for the speaker but not for the audience.
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+- *Question Type:* Determines how a question can be answered by the audience:
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+    - __Single Choice:__ Only one of the given answer may be selected.
+    - __Multiple Choice:__ Multiple of the given answers may be slected.
+    - __Free:__ The input is unrestricted (text answers).
+    - __Free Range:__ Selecting a number within a given range.
+
+- *Tags:* To sort the questions and making filtering/searching more easy. Type in the tag or start typing and select an existing one and confirm a tag by pressing
+Enter.
+
+- *Question:* The question to be answered by the audience.
+
+- *Available Choices (SC / MC only):* The available answers the audience may
+choose from. Click the plus sign to add a new answer and type in the answer. Then click
+the red cross or green tick to select whether this answer is correct or not and save the
+answer with the button on the right. Delete answers with the button on the left.{' '}
+
+- *Input Restrictions (Free Range only):* The range (numbers only) ythe
+answer needs to be in.
+
+On the upper left corner a preview of how the audience sees the question is showed.</p>
+
+Press the save button on the bottom to save the question and display it within the question
+pool (see next section).
