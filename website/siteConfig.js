@@ -16,9 +16,9 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site' /* title for your website */,
-  tagline: 'A website for testing',
-  url: 'https://facebook.github.io' /* your website url */,
+  title: 'Klicker' /* title for your website */,
+  tagline: 'an open source instant audience response system',
+  url: 'https://klicker.uzh.ch' /* your website url */,
   baseUrl: '/test-site/' /* base url for your project */,
   projectName: 'test-site',
   headerLinks: [
@@ -52,7 +52,8 @@ const siteConfig = {
   copyright:
     'Copyright © ' +
     new Date().getFullYear() +
-    ' Your Name or Your Company Name',
+    ' IBF Teaching Center, Department of Banking and Finance, University of Zurich. All rights reserved.<br>' +
+    'Products and Services displayed herein are trademarks or registered trademarks of their respective owners.',
   // organizationName: 'deltice', // or set an env variable ORGANIZATION_NAME
   // projectName: 'test-site', // or set an env variable PROJECT_NAME
   highlight: {
