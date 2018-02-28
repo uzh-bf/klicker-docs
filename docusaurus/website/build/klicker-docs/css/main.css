@@ -795,6 +795,7 @@ pre code {
 .imageAlignSide .blockImage {
   max-width: 500px;
   flex: 0 1 500px;
+  margin-right: 40px;
 }
 @media only screen and (min-device-width: 360px) and (max-device-width: 735px) {
   .imageAlignSide .blockImage {
@@ -819,12 +820,6 @@ pre code {
 .imageAlignTop.alignCenter .blockImage {
   margin-left: auto;
   margin-right: auto;
-}
-.imageAlignRight .blockImage {
-  margin-left: 40px;
-}
-.imageAlignLeft .blockImage {
-  margin-right: 40px;
 }
 .container .gridBlock .blockContent p {
   padding: 0;
@@ -1200,12 +1195,6 @@ ul#languages li {
   }
   .navigationSlider .slidingNav ul li.navItemActive a {
     color: #fff;
-  }
-}
-
-@media only screen and (max-device-width: 735px) {
-  .navigationSlider .slidingNav ul {
-    overflow-x: auto;
   }
 }
 
