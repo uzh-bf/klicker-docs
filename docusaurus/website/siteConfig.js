@@ -17,9 +17,9 @@ const users = [
 
 const siteConfig = {
   title: 'Klicker' /* title for your website */,
-  tagline: 'an open source instant audience response system',
-  url: 'https://klicker.uzh.ch' /* your website url */,
-  baseUrl: '/klicker/' /* base url for your project */,
+  tagline: 'An open source instant audience response system',
+  url: 'https://uzh-bf.github.io' /* your website url */,
+  baseUrl: '/klicker-docs/' /* base url for your project */,
   projectName: 'klicker-docs',
   organizationName: 'uzh-bf',
   headerLinks: [

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://klicker.uzh.ch/help.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://klicker.uzh.ch/en/help.html" /> </url>
-<url> <loc>https://klicker.uzh.ch/index.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://klicker.uzh.ch/en/index.html" /> </url>
-<url> <loc>https://klicker.uzh.ch/users.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://klicker.uzh.ch/en/users.html" /> </url>
-<url> <loc>https://klicker.uzh.ch/blog/2017/10/24/new-version-1.0.0.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://klicker.uzh.ch/blog/2017/09/26/adding-rss.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://klicker.uzh.ch/blog/2017/09/25/testing-rss.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://klicker.uzh.ch/blog/2017/04/10/blog-post-two.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://klicker.uzh.ch/blog/2016/03/11/blog-post.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://klicker.uzh.ch/docs/doc1.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://klicker.uzh.ch/docs/doc1.html" /> </url>
-<url> <loc>https://klicker.uzh.ch/docs/doc2.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://klicker.uzh.ch/docs/doc2.html" /> </url>
-<url> <loc>https://klicker.uzh.ch/docs/doc3.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://klicker.uzh.ch/docs/doc3.html" /> </url>
-<url> <loc>https://klicker.uzh.ch/docs/doc4.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://klicker.uzh.ch/docs/doc4.html" /> </url>
-<url> <loc>https://klicker.uzh.ch/docs/doc5.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://klicker.uzh.ch/docs/doc5.html" /> </url>
-<url> <loc>https://klicker.uzh.ch/docs/doc6.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://klicker.uzh.ch/docs/doc6.html" /> </url>
-<url> <loc>https://klicker.uzh.ch/docs/doc7.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://klicker.uzh.ch/docs/doc7.html" /> </url>
-<url> <loc>https://klicker.uzh.ch/docs/doc8.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://klicker.uzh.ch/docs/doc8.html" /> </url>
-<url> <loc>https://klicker.uzh.ch/docs/doc9.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://klicker.uzh.ch/docs/doc9.html" /> </url>
+<url> <loc>https://uzh-bf.github.io/help.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://uzh-bf.github.io/en/help.html" /> </url>
+<url> <loc>https://uzh-bf.github.io/index.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://uzh-bf.github.io/en/index.html" /> </url>
+<url> <loc>https://uzh-bf.github.io/users.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://uzh-bf.github.io/en/users.html" /> </url>
+<url> <loc>https://uzh-bf.github.io/blog/2017/10/24/new-version-1.0.0.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://uzh-bf.github.io/blog/2017/09/26/adding-rss.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://uzh-bf.github.io/blog/2017/09/25/testing-rss.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://uzh-bf.github.io/blog/2017/04/10/blog-post-two.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://uzh-bf.github.io/blog/2016/03/11/blog-post.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://uzh-bf.github.io/docs/doc1.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://uzh-bf.github.io/docs/doc1.html" /> </url>
+<url> <loc>https://uzh-bf.github.io/docs/doc2.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://uzh-bf.github.io/docs/doc2.html" /> </url>
+<url> <loc>https://uzh-bf.github.io/docs/doc3.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://uzh-bf.github.io/docs/doc3.html" /> </url>
+<url> <loc>https://uzh-bf.github.io/docs/doc4.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://uzh-bf.github.io/docs/doc4.html" /> </url>
+<url> <loc>https://uzh-bf.github.io/docs/doc5.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://uzh-bf.github.io/docs/doc5.html" /> </url>
+<url> <loc>https://uzh-bf.github.io/docs/doc6.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://uzh-bf.github.io/docs/doc6.html" /> </url>
+<url> <loc>https://uzh-bf.github.io/docs/doc7.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://uzh-bf.github.io/docs/doc7.html" /> </url>
+<url> <loc>https://uzh-bf.github.io/docs/doc8.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://uzh-bf.github.io/docs/doc8.html" /> </url>
+<url> <loc>https://uzh-bf.github.io/docs/doc9.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://uzh-bf.github.io/docs/doc9.html" /> </url>
 </urlset>
