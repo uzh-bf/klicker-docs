@@ -52,7 +52,7 @@ const siteConfig = {
   copyright:
     'Copyright © ' +
     new Date().getFullYear() +
-    ' IBF Teaching Center, Department of Banking and Finance, University of Zurich. All rights reserved.<br>' +
+    ' IBF Teaching Center, Department of Banking and Finance, University of Zurich. All rights reserved.\n' +
     'Products and Services displayed herein are trademarks or registered trademarks of their respective owners.',
   // organizationName: 'deltice', // or set an env variable ORGANIZATION_NAME
   // projectName: 'test-site', // or set an env variable PROJECT_NAME

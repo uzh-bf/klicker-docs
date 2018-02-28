@@ -89,7 +89,14 @@ class Footer extends React.Component {
           />
         </a>
         <section className="copyright">
-          Copyright &copy; {currentYear} Facebook Inc.
+          {this.props.config.copyright.split('\n').map(function(item, key) {
+            return (
+              <span key={key}>
+                {item}
+                <br/>
+              </span>
+            )
+          })}
         </section>
       </footer>
     );
