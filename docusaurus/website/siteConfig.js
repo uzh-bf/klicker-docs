@@ -20,7 +20,8 @@ const siteConfig = {
   tagline: 'an open source instant audience response system',
   url: 'https://klicker.uzh.ch' /* your website url */,
   baseUrl: '/klicker/' /* base url for your project */,
-  projectName: 'klicker',
+  projectName: 'klicker-docs',
+  organizationName: 'uzh-bf',
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
     /*{doc: 'doc4', label: 'API'},*/

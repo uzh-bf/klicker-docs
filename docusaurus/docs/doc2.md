@@ -9,7 +9,7 @@ question. During the speech (ongoing session) the speaker unlocks the question b
 that the audience can answer the questions within this block. The evaluation of the
 questions may be viewed instantly and if desired shared with the audience.
 
-![workflow](assets/workflow.png)
+![Workflow](assets/workflow.png)
 
 Follow this documentation chapter for chapter to get guided through a typical Klicker workflow including the following steps:
 - creating different types of questions
