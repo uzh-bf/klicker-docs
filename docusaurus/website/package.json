@@ -7,10 +7,13 @@
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
-    "rename-version": "docusaurus-rename-version"
+    "rename-version": "docusaurus-rename-version",
+    "publish:rschlaefli": "cross-env GIT_USER=rschlaefli CURRENT_BRANCH=master yarn run publish-gh-pages",
+    "publish:alexscheitlin": "cross-env GIT_USER=AlexScheitlin CURRENT_BRANCH=master yarn run publish-gh-pages"
   },
   "devDependencies": {
     "docusaurus": "^1.0.7",
-    "nodemon": "^1.17.1"
+    "nodemon": "^1.17.1",
+    "cross-env": "^5.1.3"
   }
 }
