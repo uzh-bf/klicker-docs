@@ -2,6 +2,7 @@
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
+    "start:watch": "nodemon -w ../docs -w ../website --ignore ../website/i18n",
     "build": "docusaurus-build",
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
@@ -9,6 +10,7 @@
     "rename-version": "docusaurus-rename-version"
   },
   "devDependencies": {
-    "docusaurus": "^1.0.7"
+    "docusaurus": "^1.0.7",
+    "nodemon": "^1.17.1"
   }
 }
