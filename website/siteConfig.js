@@ -19,13 +19,13 @@ const siteConfig = {
   title: 'Klicker' /* title for your website */,
   tagline: 'an open source instant audience response system',
   url: 'https://klicker.uzh.ch' /* your website url */,
-  baseUrl: '/test-site/' /* base url for your project */,
-  projectName: 'test-site',
+  baseUrl: '/klicker/' /* base url for your project */,
+  projectName: 'klicker',
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    /*{doc: 'doc4', label: 'API'},*/
+    /*{page: 'help', label: 'Help'},*/
+    /*{blog: true, label: 'Blog'},*/
   ],
   users,
   /* path to images for header/footer */
