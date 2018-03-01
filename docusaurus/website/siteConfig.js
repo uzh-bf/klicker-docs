@@ -5,6 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+const users = []
+
 const siteConfig = {
   title: 'Klicker' /* title for your website */,
   tagline: 'An open source instant audience response system',
@@ -27,6 +29,7 @@ const siteConfig = {
     primaryColor: '#2E8555',
     secondaryColor: '#205C3B',
   },
+  users,
   /* custom fonts for website */
   /*fonts: {
     myFont: [
