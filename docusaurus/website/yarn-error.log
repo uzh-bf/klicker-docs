@@ -1,14 +1,14 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js run publish:rschlaefli
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start:watch
 
 PATH: 
-  C:\Users\rolan\bin\cmder\bin;C:\Users\rolan\bin\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\rolan\bin\cmder\vendor\conemu-maximus5;C:\Users\rolan\bin\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\XAMPP\php;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\erl8.0\bin;C:\Users\rolan\.mix\escripts;C:\ProgramData\chocolatey\lib\Elixir/bin;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Calibre2\;C:\Users\rolan\Anaconda3;C:\Users\rolan\Anaconda3\Library\mingw-w64\bin;C:\Users\rolan\Anaconda3\Library\usr\bin;C:\Users\rolan\Anaconda3\Library\bin;C:\Users\rolan\Anaconda3\Scripts;C:\Users\rolan\AppData\Local\Google\Chrome SxS\Application;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\XAMPP\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\;C:\Program Files\Git\cmd;C:\Program Files\NodeJS\;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\Git\cmd;C:\WINDOWS\System32\WindowsPowerShell;C:\Users\rolan\AppData\Local\Microsoft\WindowsApps;C:\Users\rolan\bin;C:\Users\rolan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\rolan\AppData\Roaming\MiKTeX\2.9\miktex\bin\;C:\Users\rolan\AppData\Roaming\npm;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\Users\rolan\bin\cmder\
+  D:\Software\cmder\bin;D:\Software\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\Software\cmder\vendor\conemu-maximus5;D:\Software\cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Ruby22-x64\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Java\jre1.8.0_101\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\Skype\Phone\;C:\wamp64\bin\php\php5.6.25;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Yarn\bin\;C:\Users\Alex\AppData\Local\Microsoft\WindowsApps;C:\Users\Alex\AppData\Roaming\npm;JAVA_HOME;C:\Users\Alex\AppData\Roaming\Composer\vendor\bin;;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Alex\AppData\Local\Yarn\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;D:\Software\cmder\
 
 Yarn version: 
   1.5.1
 
 Node version: 
-  8.9.4
+  6.9.5
 
 Platform: 
   win32 x64
@@ -3255,14 +3255,15 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: C:\WINDOWS\system32\cmd.exe
-  Arguments: /d /s /c cross-env GIT_USER=rschlaefli CURRENT_BRANCH=master yarn run publish-gh-pages
-  Directory: C:\Users\rolan\Documents\Git\IBF\klicker-docs\docusaurus\website
+  Arguments: /d /s /c nodemon -w ../docs -w ../website --ignore ../website/i18n
+  Directory: d:\work\klicker-docs\docusaurus\website
   Output:
   
+      at ProcessTermError.Error (native)
       at ProcessTermError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
       at new ProcessTermError (C:\Program Files (x86)\Yarn\lib\cli.js:226:113)
       at ChildProcess.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:30281:17)
-      at emitTwo (events.js:126:13)
-      at ChildProcess.emit (events.js:214:7)
-      at maybeClose (internal/child_process.js:925:16)
-      at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+      at emitTwo (events.js:106:13)
+      at ChildProcess.emit (events.js:191:7)
+      at maybeClose (internal/child_process.js:877:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
