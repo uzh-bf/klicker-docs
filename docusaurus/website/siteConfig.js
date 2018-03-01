@@ -5,16 +5,6 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-/* List of projects/orgs using your project for the users page */
-const users = [
-  {
-    caption: 'User1',
-    image: '/test-site/img/docusaurus.svg',
-    infoLink: 'https://www.facebook.com',
-    pinned: true,
-  },
-];
-
 const siteConfig = {
   title: 'Klicker' /* title for your website */,
   tagline: 'An open source instant audience response system',
@@ -28,10 +18,9 @@ const siteConfig = {
     /*{page: 'help', label: 'Help'},*/
     /*{blog: true, label: 'Blog'},*/
   ],
-  users,
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/favicon.png',
+  footerIcon: 'img/favicon.png',
   favicon: 'img/favicon.png',
   /* colors for website */
   colors: {

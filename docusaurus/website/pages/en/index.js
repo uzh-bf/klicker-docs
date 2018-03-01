@@ -50,12 +50,6 @@ const SplashContainer = props => (
   </div>
 );
 
-const Logo = props => (
-  <div className="projectLogo">
-    <img src={props.img_src} />
-  </div>
-);
-
 const ProjectTitle = props => (
   <h2 className="projectTitle">
     {siteConfig.title}
@@ -64,7 +58,7 @@ const ProjectTitle = props => (
 );
 
 const PromoSection = props => (
-  <div className="section promoSection">git 
+  <div className="section promoSection">
     <div className="promoRow">
       <div className="pluginRowBlock">{props.children}</div>
     </div>
@@ -76,7 +70,6 @@ class HomeSplash extends React.Component {
     let language = this.props.language || '';
     return (
       <SplashContainer>
-        <Logo img_src={imgUrl('docusaurus.svg')} />
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
@@ -101,101 +94,112 @@ const Block = props => (
 const NewFeatures = props => (
   <div
     className="productShowcaseSection"
-    style={{textAlign: 'center'}}>
+    style={{textAlign: 'center', marginBottom: '20px'}}>
     <h2>New Features</h2>
-    {/*<MarkdownBlock>These are features of this project</MarkdownBlock>*/}
+    <MarkdownBlock>The new Klicker provides a lot of new features!</MarkdownBlock>
   </div>
 );
 
 const Features = props => (
   <div>
-    <Block layout="fourColumn">
-      {[
+    <Container padding={["bottom", "top"]} background="light">
+      <GridBlock
+        contents={[
+          {
+            content: 'New question types allow more accurate and versatile responses and enable additional evaluation techniques.',
+            image: imgUrl('question_types.png'),
+            imageAlign: 'right',
+            title: 'Additional Question Types',
+          }
+        ]}
+        layout="twoColumn"
+      />
+    </Container>
+    <Container padding={["bottom", "top"]}>
+      <GridBlock
+        contents={[
+          {
+            content: 'Preparing sessions for speeches or lectures in advance and grouping questions make the application of Klicker simpler and more structured.',
+            image: imgUrl('running_session.png'),
+            imageAlign: 'left',
+            title: 'Revised Question Management',
+          }
+        ]}
+        layout="twoColumn"
+      />
+    </Container>
+    <Container padding={["bottom", "top"]} background="light">
+      <GridBlock
+        contents={[
+          {
+            content: 'With feedback about speed and difficulty speakers get the chance to respond to their audience. ',
+            image: imgUrl('feedback.png'),
+            imageAlign: 'right',
+            title: 'Instant Audience Feedback',
+          }
+        ]}
+        layout="twoColumn"
+      />
+    </Container>
+  </div>
+);
+
+const ImprovedCharts = props => (
+  <div
+    className="productShowcaseSection"
+    style={{textAlign: 'center'}}>
+    <h2>Improved and Additional Charts</h2>
+  </div>
+);
+
+const Charts = props => (
+  <Container padding={["bottom", "top"]}>
+    <GridBlock
+      align="center"
+      contents={[
         {
-          content: 'New charts to evaluate your questions.',
-          image: imgUrl('chart_pie.png'),
+          content: '',
+          image: imgUrl('pie_chart.png'),
           imageAlign: 'bottom',
           title: 'Pie Chart',
         },
         {
-          content: 'The content of my second feature',
-          image: imgUrl('docusaurus.svg'),
+          content: '',
+          image: imgUrl('bar_chart.png'),
           imageAlign: 'bottom',
-          title: 'Feature Two',
+          title: 'Bar Chart',
+        },
+        {
+          content: '',
+          image: imgUrl('histogram.png'),
+          imageAlign: 'bottom',
+          title: 'Histogram',
         }
       ]}
-    </Block>
-  </div>
+      layout="threeColumn"
+    />
+    <br />
+    <br />
+    <GridBlock
+      align="center"
+      contents={[
+        {
+          content: '',
+          image: imgUrl('word_cloud.png'),
+          imageAlign: 'bottom',
+          title: 'Word Cloud',
+        },
+        {
+          content: '',
+          image: imgUrl('statistics.png'),
+          imageAlign: 'bottom',
+          title: 'Statistics',
+        }
+      ]}
+      layout="twoColumn"
+    />
+  </Container>
 );
-
-const LearnHow = props => (
-  <Block background="light">
-    {[
-      {
-        content: 'Talk about learning how to use this',
-        image: imgUrl('docusaurus.svg'),
-        imageAlign: 'right',
-        title: 'Learn How',
-      },
-    ]}
-  </Block>
-);
-
-const TryOut = props => (
-  <Block id="try">
-    {[
-      {
-        content: 'Talk about trying this out',
-        image: imgUrl('docusaurus.svg'),
-        imageAlign: 'left',
-        title: 'Try it Out',
-      },
-    ]}
-  </Block>
-);
-
-const Description = props => (
-  <Block background="dark">
-    {[
-      {
-        content: 'This is another description of how this project is useful',
-        image: imgUrl('docusaurus.svg'),
-        imageAlign: 'right',
-        title: 'Description',
-      },
-    ]}
-  </Block>
-);
-
-const Showcase = props => {
-  if ((siteConfig.users || []).length === 0) {
-    return null;
-  }
-  const showcase = siteConfig.users
-    .filter(user => {
-      return user.pinned;
-    })
-    .map((user, i) => {
-      return (
-        <a href={user.infoLink} key={i}>
-          <img src={user.image} title={user.caption} />
-        </a>
-      );
-    });
-
-  return (
-    <div className="productShowcaseSection paddingBottom">
-      <h2>{"Who's Using This?"}</h2>
-      <p>This project is used by all these people</p>
-      <div className="logos">{showcase}</div>
-      <div className="more-users">
-        <a className="button" href={pageUrl('users.html', props.language)}>
-          More {siteConfig.title} Users
-        </a>
-      </div>
-    </div>
-  );
-};
 
 class Index extends React.Component {
   render() {
@@ -208,12 +212,8 @@ class Index extends React.Component {
         <div className="mainContainer">
           <NewFeatures />
           <Features />
-          {/*
-          <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase language={language} />
-          */}
+          <ImprovedCharts />
+          <Charts />    
         </div>
         
       </div>
