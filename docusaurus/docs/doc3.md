@@ -13,9 +13,9 @@ attributes that need to be filled:
 2. **Question Type:** Determines how a question can be answered by the audience:
 
    * _Single Choice (SC):_ Only one of the given answers may be selected.
-   * _Multiple Choice (MC):_ Multiple of the given answers may be slected.
+   * _Multiple Choice (MC):_ Multiple of the given answers may be selected.
    * _Free Text (FT):_ The input is unrestricted (text answers).
-   * _Number Range (NR):_ A number within a given range may be choosen.
+   * _Number Range (NR):_ A number within a given range may be chosen.
 
 3. **Tags:** To group questions and simplifying filtering tags are used. Type in the tag or start typing and select an existing tag and confirm a tag by pressing Enter.
 

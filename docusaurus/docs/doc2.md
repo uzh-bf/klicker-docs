@@ -11,6 +11,9 @@ questions may be viewed instantly and if desired shared with the audience.
 
 ![Workflow](assets/workflow.png)
 
+While the speaker is having his cockpit to manage the session, question blocks, and feedback
+settings, the audience may participate over mobile phones, laptops, and tablets.
+
 Follow this documentation chapter for chapter to get guided through a typical Klicker workflow including the following steps:
 
 - creating different types of questions

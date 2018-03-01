@@ -15,11 +15,11 @@ showed for every question:
 6. **Usage History:** A list of all sessions where the question was used. Click on a link to see the evaluation.
 7. **Version**: Indicates which version is displayed. Click to change the version.
 
-The follwoing areas and buttons provide filtering options for the question list and allow to create new questions and sessions:
+The following areas and buttons provide filtering options for the question list and allow to create new questions and sessions:
 
 8. **Type/Tag**: Select question Types and/or Tags to filter the questions.
 9. **Search**: Type in a text to search question title and questions.
-10. **Sort**: Sort the questions according to their creation dates, last usage, question yypes or titles.
+10. **Sort**: Sort the questions according to their creation dates, last usage, question types or titles.
 11. **Sorting Order**: Order the questions in ascending or descending order.
 12. **Create Question**: Link to create a new question.
 13. **Create Session**: Link to create a new session.
