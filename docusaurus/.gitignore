@@ -1,7 +1,6 @@
 website/build/
 website/node_modules
 website/translated_docs
-website/yarn.lock
 website/yarn-error.log
 
 website/i18n/*
