@@ -21,7 +21,7 @@ const siteConfig = {
     /*{blog: true, label: 'Blog'},*/
   ],
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.png',
+  headerIcon: 'img/favicon_2.png',
   footerIcon: 'img/favicon.png',
   favicon: 'img/favicon.png',
   /* colors for website */
