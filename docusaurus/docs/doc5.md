@@ -13,8 +13,10 @@ The following steps need to be done to create a new session:
 2. Drag & Drop a question from the question list here to create a new question block.
 3. Drag & Drop a question from the question list here to add a question to an existing question block.
 
+4. (Click this button to discard this session draft.)
+
 After all the questions are placed in a new session, there are two ways to save the session. Either
-4. save and close the session or
-5. save and start the session. You will be redirected to the [Running Session](doc7.md) screen.
+5. save and close the session or
+6. save and start the session. You will be redirected to the [Running Session](doc7.md) screen.
 
 ![Create a Session](assets/create_session.png)
