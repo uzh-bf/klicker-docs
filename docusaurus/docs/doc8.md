@@ -13,5 +13,3 @@ Moving the sliders for speed and difficulty instantly sends feedback to the spea
 
 For mobile devices, the page is divided into two separate sections.
 ![Student View Mobile](assets/student_view_mobile.png)
-
-![Student View Mobile](assets/student_view_mobile_2.png)
