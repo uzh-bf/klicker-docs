@@ -4,5 +4,9 @@
     "Questions": ["doc3", "doc4"],
     "Sessions": ["doc5", "doc6"],
     "Evaluation": ["doc7", "doc8", "doc9"]
+  },
+
+  "faq": {
+    "Frequently Asked Questions": ["faq1"]
   }
 }

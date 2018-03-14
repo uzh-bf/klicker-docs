@@ -13,11 +13,14 @@
     "doc7": "Running Session",
     "doc8": "Student View",
     "doc9": "Evaluation",
+    "faq1": "Questions",
     "Docs": "Docs",
+    "FAQ": "FAQ",
     "Get Started": "Get Started",
     "Questions": "Questions",
     "Sessions": "Sessions",
-    "Evaluation": "Evaluation"
+    "Evaluation": "Evaluation",
+    "Frequently Asked Questions": "Frequently Asked Questions"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",

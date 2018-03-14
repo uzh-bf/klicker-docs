@@ -16,6 +16,7 @@ const siteConfig = {
   organizationName: 'uzh-bf',
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
+    {doc: 'faq1', label: 'FAQ'},
     /*{doc: 'doc4', label: 'API'},*/
     /*{page: 'help', label: 'Help'},*/
     /*{blog: true, label: 'Blog'},*/
