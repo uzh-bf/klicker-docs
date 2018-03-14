@@ -52,7 +52,8 @@ const SplashContainer = props => (
 
 const ProjectTitle = props => (
   <h2 className="projectTitle">
-    {siteConfig.title}
+    {siteConfig.title_index}
+    <span>{siteConfig.subtitle_index}</span>
     <small>{siteConfig.tagline}</small>
   </h2>
 );

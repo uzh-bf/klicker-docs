@@ -19,12 +19,23 @@
   font-family: $myFont !important;
 }
 
+h2.projectTitle {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+h2.projectTitle span {
+  vertical-align: top;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
 h2, h2.projectTitle {
   font-weight: 500;
 }
 
 .lightBackground {
-  background-color: #2184d017;
+  background-color: #7cb8e433;
 }
 
 img[alt="Student View Mobile"] {

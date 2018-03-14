@@ -8,7 +8,9 @@
 const users = []
 
 const siteConfig = {
-  title: 'Klicker' /* title for your website */,
+  title: '' /* empty, as we have the logo in the header title for your website */,
+  title_index: 'Klicker',
+  subtitle_index: 'UZH',
   tagline: 'An open source instant audience response system',
   url: 'https://uzh-bf.github.io' /* your website url */,
   baseUrl: '/klicker-docs/' /* base url for your project */,
@@ -22,12 +24,12 @@ const siteConfig = {
     /*{blog: true, label: 'Blog'},*/
   ],
   /* path to images for header/footer */
-  headerIcon: 'img/favicon_2.png',
+  headerIcon: 'img/klicker_uzh_logo_transparent_white.png',
   footerIcon: 'img/favicon.png',
   favicon: 'img/favicon.png',
   /* colors for website */
   colors: {
-    primaryColor: '#2185d0',  /* header, navigation bar and sidebar */
+    primaryColor: '#1e70bf',  /* header, navigation bar and sidebar */
     secondaryColor: '#2828cc',  /* second row of header for narrow and mobile view */
   },
   users,
