@@ -32,16 +32,12 @@ const siteConfig = {
   },
   users,
   /* custom fonts for website */
-  /*fonts: {
+  fonts: {
     myFont: [
-      "Times New Roman",
+      "Open Sans",
       "Serif"
-    ],
-    myOtherFont: [
-      "-apple-system",
-      "system-ui"
     ]
-  },*/
+  },
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
   copyright:
     'Copyright © ' +

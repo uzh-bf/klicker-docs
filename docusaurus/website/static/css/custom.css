@@ -15,6 +15,10 @@
 @media only screen and (min-width: 1500px) {
 }
 
+* {
+  font-family: $myFont !important;
+}
+
 h2, h2.projectTitle {
   font-weight: 500;
 }
