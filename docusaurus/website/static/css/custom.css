@@ -19,6 +19,24 @@
   font-family: $myFont !important;
 }
 
+.mainContainer .wrapper .post h1,
+.mainContainer .wrapper .post h2,
+.mainContainer .wrapper .post h3 {
+  font-weight: 500;
+
+}
+
+.mainContainer .wrapper .post h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.mainContainer .wrapper .post h3 {
+  color: black;
+  margin: 20px 0 0 0;
+  padding: 0px;
+}
+
 h2.projectTitle {
   font-size: 3rem;
   line-height: 3rem;
@@ -33,6 +51,7 @@ h2.projectTitle span {
 h2, h2.projectTitle {
   font-weight: 500;
 }
+
 
 .lightBackground {
   background-color: #7cb8e433;
