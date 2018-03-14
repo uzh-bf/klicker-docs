@@ -50,3 +50,11 @@ footer .copyright {
   color: black;
 }
   
+.klicker_button {
+  background-color: #2185d0;
+  color: #fff;
+  border-radius: .28571429rem;
+  font-weight: 700;
+  padding: .78571429em 1.5em .78571429em;
+  border: none;
+}
