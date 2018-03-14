@@ -76,7 +76,7 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button href={'https://beta.klicker.uzh.ch'} target={'blank'}>Klicker Application</Button>
             <Button href={docUrl('doc1.html', language)}>How to use Klicker</Button>
-            <Button href={docUrl('faq1.html', language)}>FAQ</Button>
+            <Button href={docUrl('faq.html', language)}>FAQ</Button>
           </PromoSection>
         </div>
       </SplashContainer>

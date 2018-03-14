@@ -1,7 +1,9 @@
 ---
-id: faq1
-title: Questions
+id: faq
+title: Frequently Asked Questions
 ---
+
+## Questions
 
 **Delete Questions**
 

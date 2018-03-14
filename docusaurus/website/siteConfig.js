@@ -18,7 +18,7 @@ const siteConfig = {
   organizationName: 'uzh-bf',
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
-    {doc: 'faq1', label: 'FAQ'},
+    {doc: 'faq', label: 'FAQ'},
     /*{doc: 'doc4', label: 'API'},*/
     /*{page: 'help', label: 'Help'},*/
     /*{blog: true, label: 'Blog'},*/
@@ -30,7 +30,7 @@ const siteConfig = {
   /* colors for website */
   colors: {
     primaryColor: '#1e70bf',  /* header, navigation bar and sidebar */
-    secondaryColor: '#2828cc',  /* second row of header for narrow and mobile view */
+    secondaryColor: '#1e70bf',  /* second row of header for narrow and mobile view */
   },
   users,
   /* custom fonts for website */
