@@ -85,3 +85,12 @@ footer .copyright {
 .docMainWrapper .mainContainer .wrapper p {
   max-width: none;
 }
+
+.navPusher {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-between;
+  min-height: 100%;
+  height: auto;
+}
