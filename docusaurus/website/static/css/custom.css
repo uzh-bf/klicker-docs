@@ -58,3 +58,11 @@ footer .copyright {
   padding: .78571429em 1.5em .78571429em;
   border: none;
 }
+
+.docMainWrapper .mainContainer {
+  margin: 0 auto;
+}
+
+.docMainWrapper .mainContainer .wrapper p {
+  max-width: none;
+}
