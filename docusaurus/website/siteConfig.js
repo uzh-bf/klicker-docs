@@ -26,7 +26,7 @@ const siteConfig = {
   favicon: 'img/favicon.png',
   /* colors for website */
   colors: {
-    primaryColor: '#2828cc',  /* header, navigation bar and sidebar */
+    primaryColor: '#2185d0',  /* header, navigation bar and sidebar */
     secondaryColor: '#2828cc',  /* second row of header for narrow and mobile view */
   },
   users,
