@@ -104,27 +104,27 @@ const NewFeatures = props => (
 
 const Features = props => (
   <div>
-    <Container padding={["bottom", "top"]} background="light">
+  <Container padding={["bottom", "top"]} background="light">
+    <GridBlock
+      contents={[
+        {
+          content: 'Preparing sessions for speeches or lectures in advance and grouping questions make the application of Klicker simpler and more structured.',
+          image: imgUrl('running_session.png'),
+          imageAlign: 'right',
+          title: 'Revised Question Management',
+        }
+      ]}
+      layout="twoColumn"
+    />
+  </Container>
+    <Container padding={["bottom", "top"]}>
       <GridBlock
         contents={[
           {
             content: 'New question types allow more accurate and versatile responses and enable additional evaluation techniques.',
             image: imgUrl('question_types.png'),
-            imageAlign: 'right',
-            title: 'Additional Question Types',
-          }
-        ]}
-        layout="twoColumn"
-      />
-    </Container>
-    <Container padding={["bottom", "top"]}>
-      <GridBlock
-        contents={[
-          {
-            content: 'Preparing sessions for speeches or lectures in advance and grouping questions make the application of Klicker simpler and more structured.',
-            image: imgUrl('running_session.png'),
             imageAlign: 'left',
-            title: 'Revised Question Management',
+            title: 'Additional Question Types',
           }
         ]}
         layout="twoColumn"
@@ -155,7 +155,7 @@ const ImprovedCharts = props => (
 );
 
 const Charts = props => (
-  <Container padding={["bottom", "top"]}>
+  <Container padding={["bottom"]}>
     <GridBlock
       align="center"
       contents={[

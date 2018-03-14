@@ -24,7 +24,7 @@ const siteConfig = {
     /*{blog: true, label: 'Blog'},*/
   ],
   /* path to images for header/footer */
-  headerIcon: 'img/klicker_uzh_logo_transparent_white.png',
+  headerIcon: 'img/klicker_uzh_logo.png',
   footerIcon: 'img/favicon.png',
   favicon: 'img/favicon.png',
   /* colors for website */
