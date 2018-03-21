@@ -102,22 +102,22 @@ const NewFeatures = props => (
   </div>
 );
 
-const Features = props => (
+const Features1 = props => (
   <div>
-  <Container padding={["bottom", "top"]} background="light">
-    <GridBlock
-      contents={[
-        {
-          content: 'Preparing sessions for speeches or lectures in advance and grouping questions make the application of Klicker simpler and more structured.',
-          image: imgUrl('running_session.png'),
-          imageAlign: 'right',
-          title: 'Revised Question Management',
-        }
-      ]}
-      layout="twoColumn"
-    />
+    <Container padding={["bottom", "top"]} background="light">
+      <GridBlock
+        contents={[
+          {
+            content: 'Preparing sessions for speeches or lectures in advance and grouping questions make the application of Klicker simpler and more structured.',
+            image: imgUrl('question_pool.png'),
+            imageAlign: 'right',
+            title: 'Revised Question Management',
+          }
+        ]}
+        layout="twoColumn"
+      />
   </Container>
-    <Container padding={["bottom", "top"]}>
+  <Container padding={["bottom", "top"]}>
       <GridBlock
         contents={[
           {
@@ -130,32 +130,19 @@ const Features = props => (
         layout="twoColumn"
       />
     </Container>
-    <Container padding={["bottom", "top"]} background="light">
-      <GridBlock
-        contents={[
-          {
-            content: 'With feedback about speed and difficulty speakers get the chance to respond to their audience. ',
-            image: imgUrl('feedback.png'),
-            imageAlign: 'right',
-            title: 'Instant Audience Feedback',
-          }
-        ]}
-        layout="twoColumn"
-      />
-    </Container>
   </div>
 );
 
 const ImprovedCharts = props => (
   <div
-    className="productShowcaseSection"
-    style={{textAlign: 'center'}}>
+    className="productShowcaseSection lightBackground"
+    style={{textAlign: 'center', marginBottom: '10px', paddingTop: '10px'}}>
     <h2>Improved and Additional Charts</h2>
   </div>
 );
 
 const Charts = props => (
-  <Container padding={["bottom"]}>
+  <Container padding={["bottom"]} background="light">
     <GridBlock
       align="center"
       contents={[
@@ -163,19 +150,19 @@ const Charts = props => (
           content: '',
           image: imgUrl('pie_chart.png'),
           imageAlign: 'bottom',
-          title: 'Pie Chart',
+          title: 'Pie Chart (Single Choice)',
         },
         {
           content: '',
           image: imgUrl('bar_chart.png'),
           imageAlign: 'bottom',
-          title: 'Bar Chart',
+          title: 'Bar Chart (Single Choice)',
         },
         {
           content: '',
-          image: imgUrl('histogram.png'),
+          image: imgUrl('stacked_chart.png'),
           imageAlign: 'bottom',
-          title: 'Histogram',
+          title: 'Stacked Chart (Multiple Choice)',
         }
       ]}
       layout="threeColumn"
@@ -189,18 +176,49 @@ const Charts = props => (
           content: '',
           image: imgUrl('word_cloud.png'),
           imageAlign: 'bottom',
-          title: 'Word Cloud',
+          title: 'Word Cloud (Free Text)',
         },
         {
           content: '',
-          image: imgUrl('statistics.png'),
+          image: imgUrl('histogram.png'),
           imageAlign: 'bottom',
-          title: 'Statistics',
+          title: 'Histogram (Number Range)',
         }
       ]}
       layout="twoColumn"
     />
   </Container>
+);
+
+const Features2 = props => (
+  <div>
+    <Container padding={["bottom", "top"]}>
+      <GridBlock
+        contents={[
+          {
+            content: 'With feedback about speed and difficulty speakers get the chance to respond to their audience. ',
+            image: imgUrl('feedback.png'),
+            imageAlign: 'right',
+            title: 'Instant Audience Feedback',
+          }
+        ]}
+        layout="twoColumn"
+      />
+    </Container>
+    <Container padding={["bottom", "top"]} background="light">
+      <GridBlock
+        contents={[
+          {
+            content: 'The question blocks containing all the questions for the audience are placed on a timeline that leads through the speech.',
+            image: imgUrl('running_session.png'),
+            imageAlign: 'left',
+            title: 'Advanced Presentation Mode',
+          }
+        ]}
+        layout="twoColumn"
+      />
+    </Container>
+  </div>
 );
 
 class Index extends React.Component {
@@ -213,9 +231,10 @@ class Index extends React.Component {
         
         <div className="mainContainer">
           <NewFeatures />
-          <Features />
+          <Features1 />
           <ImprovedCharts />
-          <Charts />    
+          <Charts />
+          <Features2 />
         </div>
         
       </div>
