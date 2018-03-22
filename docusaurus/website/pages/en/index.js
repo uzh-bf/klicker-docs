@@ -210,7 +210,7 @@ const Features2 = props => (
         contents={[
           {
             content: 'The question blocks containing all the questions for the audience are placed on a timeline that leads through the speech.',
-            image: imgUrl('running_session.png'),
+            image: imgUrl('running_session.gif'),
             imageAlign: 'left',
             title: 'Advanced Presentation Mode',
           }
