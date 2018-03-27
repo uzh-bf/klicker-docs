@@ -7,7 +7,7 @@ title: Frequently Asked Questions
 
 ### Delete Questions
 
-As questions are used within sessions and the answers and evaluation graphs link to a specific question, _deleting a question is not possible_. In future, it will be possible to archive questions. Thus, the question is not deleted entirely but not visible within the question pool anymore.
+As questions are used within sessions and the answers and evaluation graphs link to a specific question, _deleting a question is not possible_. However, it is possible to [archive questions](question_archive.md). Thus, the question is not deleted entirely but not visible within the question pool anymore. All archived questions can be viewed by setting the filter on the left to "Show Archived". All archived questions are marked with a red label.
 
 ### Edit Questions
 

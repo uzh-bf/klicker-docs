@@ -7,6 +7,7 @@
     "Questions": [
       "question_create",
       "question_edit",
+      "question_archive",
       "question_pool"
     ],
     "Sessions": [
