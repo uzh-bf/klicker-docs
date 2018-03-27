@@ -1,5 +1,5 @@
 ---
-id: doc7
+id: session_list
 title: Session List
 ---
 

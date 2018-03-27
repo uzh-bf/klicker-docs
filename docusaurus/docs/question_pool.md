@@ -1,5 +1,5 @@
 ---
-id: doc5
+id: question_pool
 title: Question Pool
 ---
 
@@ -19,7 +19,7 @@ The following areas and buttons provide filtering options for the question list 
 9. **Search**: Type in a query to search question titles and contents.
 10. **Sort**: Sort the questions according to their creation dates, last usage, question types or titles.
 11. **Sorting Order**: Order the questions in ascending or descending order.
-12. **Create Question**: Link to [create a new question](doc3.md).
-13. **Create Session**: Link to [create a new session](doc6.md).
+12. **Create Question**: Link to [create a new question](question_create.md).
+13. **Create Session**: Link to [create a new session](session_create.md).
 
 ![Question Pool](assets/question_pool.png)

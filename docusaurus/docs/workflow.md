@@ -1,5 +1,5 @@
 ---
-id: doc2
+id: workflow
 title: The Klicker-Workflow
 ---
 

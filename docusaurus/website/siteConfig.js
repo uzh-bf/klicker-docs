@@ -17,7 +17,7 @@ const siteConfig = {
   projectName: 'klicker-docs',
   organizationName: 'uzh-bf',
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
+    {doc: 'introduction', label: 'Docs'},
     {doc: 'faq', label: 'FAQ'},
     /*{doc: 'doc4', label: 'API'},*/
     /*{page: 'help', label: 'Help'},*/

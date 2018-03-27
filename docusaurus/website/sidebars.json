@@ -1,8 +1,22 @@
 {
   "docs": {
-    "Get Started": ["doc1", "doc2"],
-    "Questions": ["doc3", "doc4", "doc5"],
-    "Sessions": ["doc6", "doc7"],
-    "Evaluation": ["doc8", "doc9", "doc10"]
+    "Get Started": [
+      "introduction",
+      "workflow"
+    ],
+    "Questions": [
+      "question_create",
+      "question_edit",
+      "question_pool"
+    ],
+    "Sessions": [
+      "session_create",
+      "session_list"
+    ],
+    "Evaluation": [
+      "session_running",
+      "audience_view",
+      "evaluation"
+    ]
   }
 }

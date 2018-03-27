@@ -1,9 +1,9 @@
 ---
-id: doc4
+id: question_edit
 title: Edit a Question
 ---
 
-On the [Question Pool](doc5.md) screen, click the _Edit_ button next to the question to edit it.
+On the [Question Pool](question_pool.md) screen, click the _Edit_ button next to the question to edit it.
 
 As questions are used in sessions and may be evaluated, not every part of a question may be edited. To edit the question posed to the audience and the available choices for input restrictions for the answer, a new version of the question needs to be created. The following list shows how to edit a question and how create a new version of a question:
 
@@ -21,4 +21,4 @@ As questions are used in sessions and may be evaluated, not every part of a ques
 
 7. **Save:** Press the _Save_ button to save the edited question or the new created version.
 
-![Question Pool](assets/edit_question.png)
+![Question Pool](assets/question_edit.png)
