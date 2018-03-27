@@ -5,7 +5,7 @@ title: Question Pool
 
 The Question Pool shows all previously created questions. The following details and actions are shown for every question:
 
-1. **Title:** The title of the question (only visible to the speaker).
+1. **Title:** The title of the question.
 2. **Question:** The question for the audience.
 3. **Tags:** List of tags associated with this question.
 4. **Type:** The type of the question (SC, MC, FT or NR).
@@ -19,7 +19,7 @@ The following areas and buttons provide filtering options for the question list 
 9. **Search**: Type in a query to search question titles and contents.
 10. **Sort**: Sort the questions according to their creation dates, last usage, question types or titles.
 11. **Sorting Order**: Order the questions in ascending or descending order.
-12. **Create Question**: Link to create a new question.
-13. **Create Session**: Link to create a new session.
+12. **Create Question**: Link to [create a new question](doc3.md).
+13. **Create Session**: Link to [create a new session](doc5.md).
 
 ![Question Pool](assets/question_pool.png)

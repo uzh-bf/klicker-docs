@@ -11,7 +11,7 @@ In preparation for a Klicker session, a speaker can create questions of differen
 
 During the execution of a session, the question blocks defined for the respective session are then activated and evaluated in the predefined order. Activating a question block presents the questions to the audience and enables the evaluation screen, on which the results may be observed in near real-time.
 
-The flow of a session is controlled on and by the speaker's "Running Session" screen, which is thought to be entirely separate from the evaluation screen. While the evaluation screen can and should be presented to the students (e.g., on a projector), the "Running Session" screen corresponds to the speaker's "cockpit" and contains information and settings restricted to the speaker.
+The flow of a session is controlled on and by the speaker's "Running Session" screen, which is thought to be entirely separate from the evaluation screen. While the evaluation screen can and should be presented to the audience (e.g., on a projector), the "Running Session" screen corresponds to the speaker's "cockpit" and contains information and settings restricted to the speaker.
 
 The remainder of this documentation is structured as a "step-by-step" guide through a typical Klicker-Workflow, including the following steps:
 
