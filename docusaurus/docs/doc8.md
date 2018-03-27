@@ -1,15 +1,18 @@
 ---
 id: doc8
-title: Audience View
+title: Running Session
 ---
 
-This page is presented to the audience to answer questions (left side) and give instant feedback (right side) to the speaker.
+This screen is used during a speech or lecture to manage the questions and audience feedback and provides the following information and options:
 
-Moving the sliders for speed and difficulty instantly sends feedback to the speaker. The input box on the bottom enables sending text feedback or questions to the speaker's session cockpit.
+1. **Starting Time:** The time the session was started at.
+2. **Session Duration:** How long the session is already running.
+3. **QR Code:** Click here to display the QR-Code so that the audience can scan it (e.g., with an appropriate mobile app) and get forwarded to the web page for answering the questions and giving feedback.
+4. **Audience View:** Click here to see the [Audience View](doc9.md). This also shows the URL to give to the audience for participation.
+5. **Evaluation:** Click here to see the [Evaluation](doc10.md) of the currently active question block.
+6. **Question blocks:** Already executed question blocks are labeled with a tick, the active one is labeled with speech bubbles and colored in green and upcoming question blocks do not have any label.
+7. **Navigation:** This button is used to navigate through the question blocks. It indicates the action taken when it is clicked. **One can never navigate backwards!**
+8. **Confusion-Barometer:** The Confusion-Barometer enables the audience to give feedback about the speed and difficulty of the speech or lecture. Click the button to activate or deactivate the function. Below the feedback about the speed and difficulty is presented in separate graphs.
+9. **Feedback-Channel:** The Feedback-Channel allows the audience to ask questions and give text feedback to the speaker. This function can be activated or deactivated with the button. Furthermore, the speaker may decide whether the feedbacks should be visible to the audience or not.
 
-**Notice that participants need to reload this page after the activation of a new question block.**
-
-![Audience View Desktop](assets/audience_view_desktop.png)
-
-For mobile devices, the page is divided into two separate sections.
-![Audience View Mobile](assets/audience_view_mobile.png)
+![Running Session](assets/running_session.png)

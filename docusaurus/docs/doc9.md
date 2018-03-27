@@ -1,22 +1,15 @@
 ---
 id: doc9
-title: Evaluation
+title: Audience View
 ---
 
-The evaluation screen provides different charts for all questions asked within a session.
+This page is presented to the audience to answer questions (left side) and give instant feedback (right side) to the speaker.
 
-Depending on the question type the evaluation screen might look different. Additionally, some
-charts are not available for all question types. The following two screens show all features:
+Moving the sliders for speed and difficulty instantly sends feedback to the speaker. The input box on the bottom enables sending text feedback or questions to the speaker's session cockpit.
 
-1. **Navigation:** All questions within the active block are listed here. Click the question or use the arrows on the very left or right to navigate through the questions.
-2. **Question:** The question posed to the audience.
-3. **Number of participants:** Indicates how many participants answered the question.
-4. **Show Solution:** For single and multiple choice questions this slider can be used to show the correct answer within the graph.
-5. **Chart Type:** This dropdown can be used to change the type of chart. There are 5 chart types available: Pie Chart, Bar Chart, Histogram, Word Cloud, and Table.
-6. **Choices:** This list shows all possible answers (only for SC/MC).
-7. **Statistics:** Statistics are only displayed for number range questions.
-8. / 9. **Chart:** The chart is only displayed after the "Show Graph" button is clicked. Providing this feature enables the speaker to wait until enough participants answered the question before showing the results.
+**Notice that participants need to reload this page after the activation of a new question block.**
 
-![Evaluation](assets/evaluation_1.png)
+![Audience View Desktop](assets/audience_view_desktop.png)
 
-![Evaluation](assets/evaluation_2.png)
+For mobile devices, the page is divided into two separate sections.
+![Audience View Mobile](assets/audience_view_mobile.png)

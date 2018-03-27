@@ -1,8 +1,8 @@
 {
   "docs": {
     "Get Started": ["doc1", "doc2"],
-    "Questions": ["doc3", "doc4"],
-    "Sessions": ["doc5", "doc6"],
-    "Evaluation": ["doc7", "doc8", "doc9"]
+    "Questions": ["doc3", "doc4", "doc5"],
+    "Sessions": ["doc6", "doc7"],
+    "Evaluation": ["doc8", "doc9", "doc10"]
   }
 }

@@ -3,10 +3,9 @@ id: doc3
 title: Create a Question
 ---
 
-On the [Question Pool](doc4.md) screen, click _Create Question_ to add a new question.
+On the [Question Pool](doc5.md) screen, click _Create Question_ to add a new question.
 
-Before preparing a session, all questions need to be created. Every question has the following
-attributes that need to be filled:
+Before preparing a session, all questions need to be created. Every question has the following attributes that need to be filled:
 
 1. **Question Title:** A short title that summarizes the question.
 
@@ -26,6 +25,6 @@ attributes that need to be filled:
 
 7. **Audience Preview:** A preview of how the audience sees the question.
 
-8. **Save** Press the save button on the bottom to save the question and add it to the [Question Pool](doc4.md) (see next section). **Notice that once the question is saved it can not be edited anymore. You need to create a new version.**
+8. **Save** Press the save button on the bottom to save the question and add it to the [Question Pool](doc5.md) (see next section). **Notice that once the question is saved it can not be edited anymore. You need to create a new version.**
 
 ![Create Question](assets/create_question.png)

@@ -1,25 +1,24 @@
 ---
 id: doc4
-title: Question Pool
+title: Edit a Question
 ---
 
-The Question Pool shows all previously created questions. The following details and actions are shown for every question:
+On the [Question Pool](doc5.md) screen, click the _Edit_ button next to the question to edit it.
 
-1. **Title:** The title of the question.
-2. **Question:** The question for the audience.
-3. **Tags:** List of tags associated with this question.
-4. **Type:** The type of the question (SC, MC, FT or NR).
-5. **View / Edit**: View the whole question and edit it.
-6. **Usage History:** A list of all sessions where the question was previously used. Click on a link to see the evaluation of the corresponding session.
-7. **Version**: Indicates which version is displayed and used. Use the dropdown to switch between multiple versions.
+As questions are used in sessions and may be evaluated, not every part of a question may be edited. To edit the question posed to the audience and the available choices for input restrictions for the answer, a new version of the question needs to be created. The following list shows how to edit a question and how create a new version of a question:
 
-The following areas and buttons provide filtering options for the question list and allow to create new questions and sessions:
+1. **Question Type:** Once a question is created the question type can not be changed.
 
-8. **Type/Tag**: Select question types and/or tags to filter the questions.
-9. **Search**: Type in a query to search question titles and contents.
-10. **Sort**: Sort the questions according to their creation dates, last usage, question types or titles.
-11. **Sorting Order**: Order the questions in ascending or descending order.
-12. **Create Question**: Link to [create a new question](doc3.md).
-13. **Create Session**: Link to [create a new session](doc5.md).
+2. **Question Title:** The question title may be changed at any time and stays the same for all versions of a question.
 
-![Question Pool](assets/question_pool.png)
+3. **Tags:** Like the question title, the tags may be edited at any time. All versions of a question have the same tags.
+
+4. **Question Versions:** To change the actual question (5) and the available choices (SC/MC) or input restrictions (NR) a new version needs to be created. Click the _New Version_ tab to create a new version.
+
+5. **Question:** The question posed to the audience may be edited in a new version of the question.
+
+6. **Available Choices (SC / MC only):** The available choices may be edited like creating a question.
+
+7. **Save:** Press the _Save_ button to save the edited question or the new created version.
+
+![Question Pool](assets/edit_question.png)
