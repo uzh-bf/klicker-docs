@@ -19,6 +19,19 @@
   font-family: $myFont !important;
 }
 
+/* custom header color */
+.fixedHeaderContainer {
+  background-color: $customHeaderColor;
+}
+
+.navigationSlider .slidingNav ul li a:focus,
+.navigationSlider .slidingNav ul li a:hover,
+.navigationSlider .slidingNav ul li.siteNavItemActive a,
+.navigationSlider .slidingNav ul li.siteNavGroupActive a {
+  background-color: $customHeaderColor;
+}
+/* custom header color */
+
 .mainContainer .wrapper .post h1,
 .mainContainer .wrapper .post h2,
 .mainContainer .wrapper .post h3 {

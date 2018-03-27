@@ -31,6 +31,7 @@ const siteConfig = {
   colors: {
     primaryColor: '#1e70bf',  /* header, navigation bar and sidebar */
     secondaryColor: '#1e70bf',  /* second row of header for narrow and mobile view */
+    customHeaderColor: '#375164',
   },
   users,
   /* custom fonts for website */
