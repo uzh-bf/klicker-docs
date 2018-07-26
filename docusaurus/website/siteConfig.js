@@ -56,7 +56,7 @@ const siteConfig = {
   scripts: ['https://buttons.github.io/buttons.js'],
   stylesheets: ['https://fonts.googleapis.com/css?family=Open+Sans'],
   // You may provide arbitrary config keys to be used as needed by your template.
-  repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/uzh-bf/klicker-docs',
 };
 
 module.exports = siteConfig;
